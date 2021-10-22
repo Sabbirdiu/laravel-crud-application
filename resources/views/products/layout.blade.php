@@ -6,10 +6,11 @@
 </head>
 <body>
   
-<div class="container">
-    @yield('content') 
-    <h1>Hello world</h1>
-</div> 
+<div class="container ">
+    <div class="mt-5" style="margin: 15px;">
+    @yield('content')
+    </div>
+</div>
    
 </body>
 </html>
